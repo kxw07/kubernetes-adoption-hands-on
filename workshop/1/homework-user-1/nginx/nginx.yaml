@@ -51,7 +51,7 @@ spec:
             path: nginx.conf
       - name: nginx-log
         hostPath:
-          path: /var/logs
+          path: /var/logs/nginx
           type: DirectoryOrCreate
       restartPolicy: Always
 ---

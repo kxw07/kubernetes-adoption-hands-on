@@ -44,4 +44,4 @@ spec:
             path: fluent.conf
       - name: nginx-log
         hostPath:
-          path: /var/logs
+          path: /var/logs/nginx
